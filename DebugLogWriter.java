@@ -29,6 +29,7 @@ public class DebugLogWriter {
     {
         try {
             getInstance().getLogWriter().logWarningMessage(msg);
+			System.out.println("test");
         } catch (IOException e) {
             e.printStackTrace();
         }
